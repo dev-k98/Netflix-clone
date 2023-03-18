@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"allowUnreachableCode": false,
+		"allowJs": true,
+		"checkJs": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"module": "commonjs"
+	},
+	"include": ["./src/**/*"],
+	"exclude": ["node_modules"]
+}

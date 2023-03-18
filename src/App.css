@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 240px auto;
+  background-color: #121212;
+}

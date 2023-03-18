@@ -1,0 +1,57 @@
+.header-main {
+	position: fixed;
+	width: -webkit-fill-available;
+	height: 64px;
+	background: #121212;
+	color: white;
+	padding: 0 32px;
+}
+
+.navigation-box,
+.profile-container,
+.header-logged-out {
+	display: flex;
+	gap: 20px;
+}
+
+.header-logged-in {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logged-out {
+	height: 100%;
+	/* width: 100%; */
+	align-items: center;
+	justify-content: end;
+}
+
+.arrow {
+	height: 30px;
+	width: 30px;
+	border: none;
+	outline: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #00000083;
+	opacity: 0.5;
+	border-radius: 50%;
+}
+
+.arrow-icon {
+	width: 20px;
+	height: 20px;
+	/* border-style: solid; */
+}
+
+.arrow-forward {
+	transform: rotate(180deg);
+}
+
+.arrow-forward:hover,
+.arrow-back:hover {
+	opacity: 1;
+}
